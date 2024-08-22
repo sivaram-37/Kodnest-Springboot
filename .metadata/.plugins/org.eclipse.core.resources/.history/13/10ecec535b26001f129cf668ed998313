@@ -1,0 +1,11 @@
+package com.musichub.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CallController {
+
+	public String call() {
+		return "Contoller reached backend";
+	}
+}
